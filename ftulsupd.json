@@ -1,7 +1,6 @@
 {
   "latest": "0.7",
   "updateurl": "https://raw.githubusercontent.com/BALIGINS/srptools/main/srptools.luac",
-  "updlist": "— Код скрипта был частично переписан и оптимизирован.- Проводник
-- Полупроводник
-- Диэлектрик"
+  "updlist": "{Привет
+Привет}"
 }

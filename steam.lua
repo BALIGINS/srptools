@@ -1,4 +1,4 @@
-local url = "https://raw.githubusercontent.com/BALIGINS/srptools/main/mussic.dfpwm"
+local url = "https://raw.githubusercontent.com/BALIGINS/srptools/main/ENZRO_-_Ty_ne_bojjsya_nochi_81423717.dfpwm"
 
 local speaker = peripheral.find("speaker")
 

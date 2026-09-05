@@ -18,10 +18,11 @@ if not response then
     return
 end
 
-print("Музыка загружается...")
+print("▶ Воспроизведение...")
 
 while true do
-    local chunk = response.read(16 * 1024)
+    -- Небольшой кусок DFPWM
+    local chunk = response.read(1600)
 
     if not chunk then
         break
@@ -29,6 +30,7 @@ while true do
 
     local audio = decoder(chunk)
 
+    -- Ждём, пока динамик сможет принять следующий кусок
     while not speaker.playAudio(audio) do
         os.pullEvent("speaker_audio_empty")
     end
@@ -36,4 +38,4 @@ end
 
 response.close()
 
-print("Готово!")
+print("■ Музыка закончилась.")

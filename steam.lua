@@ -1,4 +1,4 @@
-local url = "https://raw.githubusercontent.com/BALIGINS/srptools/main/Noze_MC_-_Ustrojj_Destrojj_b64f0d240.dfpwm"
+local url = "https://videotourl.com/audio/1788632194035-558e9b01-58e4-46e7-b2ee-28bccc38e2e4.mp3"
 
 local speaker = peripheral.find("speaker")
 
